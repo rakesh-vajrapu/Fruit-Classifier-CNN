@@ -1,11 +1,53 @@
-# Fruit-Classifier-CNN
+# Fruit Classifier Project
 
-• **Developed** a fruit classifier using a Convolutional Neural Network (CNN) architecture implemented with Keras, achieving a test accuracy of 73.33%.<br/>
-• **Utilized** Python programming language along with TensorFlow and Keras deep learning libraries for model development and training.<br/>
-• **Conducted** exploratory data analysis on the fruit dataset, comprising six classes: acai, cupuacu, graviola, guarana, pupunha, and tucuma.<br/>
-• **Employed** data augmentation techniques such as rotation, width and height shift, and horizontal flipping to enhance the dataset and improve model generalization.<br/>
-• **Leveraged** tools like ImageDataGenerator for efficient data loading and preprocessing, and utilized techniques like batch normalization and dropout for model regularization.<br/>
-• **Implemented** a simple CNN model architecture consisting of convolutional layers, max-pooling layers, and fully connected layers, with a total of over 59 million trainable parameters.<br/>
-• **Trained** the model for 30 epochs, using early stopping and model checkpoint callbacks to prevent overfitting and save the best-performing model.<br/>
-• **Evaluated** model performance using validation and test datasets, generating a detailed classification report and confusion matrix to assess precision, recall, and F1-score for each class.<br/>
-• **Contributed** to the project's success by optimizing hyperparameters, analyzing training curves, and interpreting classification metrics to fine-tune the model for improved accuracy.<br/>
+This project aims to classify different types of fruits using Convolutional Neural Networks (CNNs) implemented with Keras. The classifier can distinguish between various fruits such as acai, cupuacu, graviola, guarana, pupunha, and tucuma.
+
+## Technologies Used
+
+- Python
+- TensorFlow
+- Keras
+
+## Project Overview
+
+The fruit classifier project involves the following steps:
+
+1. **Data Exploration**: 
+   - Analyzing and understanding the fruit dataset.
+   - Exploring the distribution of different fruit classes.
+
+2. **Data Preprocessing**: 
+   - Resizing and normalizing images.
+   - Splitting the dataset into training, validation, and test sets.
+   - Augmenting the training data to increase model robustness.
+
+3. **Model Development**: 
+   - Designing a CNN architecture using Keras.
+   - Adding convolutional layers, pooling layers, and fully connected layers.
+   - Implementing regularization techniques like dropout and batch normalization.
+
+4. **Model Training**: 
+   - Training the model on the training dataset.
+   - Using early stopping and model checkpoint callbacks to prevent overfitting and save the best model.
+
+5. **Model Evaluation**: 
+   - Evaluating the trained model on the validation and test datasets.
+   - Generating classification reports and confusion matrices to analyze model performance.
+
+## Usage
+
+To run the fruit classifier project:
+
+1. Clone the repository:
+   git clone https://github.com/rakesh-vajrapu/Fruit-Classifier-CNN
+
+
+2. Install the required dependencies:
+   pip install -r requirements.txt
+
+   
+3. Run the Jupyter notebook or Python script to preprocess data, train the model, and evaluate its performance.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
